@@ -32,7 +32,7 @@
   }
   
    async function addContact(name, email, phone) {
-    // ...твій код. Повертає об'єкт доданого контакту. 
+    // ....твій код. Повертає об'єкт доданого контакту. 
     const contacts = await listContacts();
     const newContact = {
         id: nanoid(),
